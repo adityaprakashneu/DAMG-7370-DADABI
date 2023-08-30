@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\18573\Downloads\Food_Inspections.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Food_Inspections.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection ID" selected="True" />
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="License #" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="License #" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="Risk" size="15" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="String" />
+            <Field name="Address" size="51" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="City" size="20" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="String" />
+            <Field name="Zip" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="String" />
+            <Field name="Inspection Type" size="41" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="Results" size="20" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="Violations" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_String" />
+            <Field name="Latitude" size="18" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="String" />
+            <Field name="Longitude" size="18" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="String" />
+            <Field name="Location" size="40" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="269" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DBA Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="License #" selected="True" rename="License_Number" />
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Results" selected="True" />
+            <SelectField field="Violations" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="894" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Inspection_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="990" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="377" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="FileGetFileName(&quot;C:\Users\18573\Downloads\DAMG7370 DA DA for BI\AlteryxModels\Chicago\Chicago_DataProfiling.yxmd&quot;)" field="DI_WorkFlowFileName" size="64" type="String" />
+            <FormulaField expression="FileGetDir(&quot;C:\Users\18573\Downloads\DAMG7370 DA DA for BI\AlteryxModels\Chicago\Chicago_DataProfiling.yxmd&quot;)" field="DI_WorkFlowFileDirectory" size="64" type="String" />
+            <FormulaField expression="Replace([Violations], ' - Comments: ', '@')" field="Violations" size="254" type="V_String" />
+            <FormulaField expression="ReplaceChar([Risk], '(', '')" field="Risk" size="15" type="String" />
+            <FormulaField expression="ReplaceChar([Risk], ')', '')" field="Risk" size="15" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = FileGetFileName("C:\Users\18...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="1086" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"RecordID","Inspection ID","DBA Name","AKA Name","License_Number","Facility Type","Risk","Address","City","State","Zip","Inspection Date","Inspection Type","Results","Violations","Latitude","Longitude","Location","DI_CreateDate","DI_WorkFlowFileName","Violations_Code1","Violations_Code2","Violations_Description1","Violations_Description2","Inspection_Date"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1182" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DBA Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="License #" selected="True" />
+            <SelectField field="License_Number" selected="True" />
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="Risk" selected="False" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Inspection Date" selected="False" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Results" selected="True" />
+            <SelectField field="Risk2" selected="True" rename="Risk_Level" />
+            <SelectField field="Risk3" selected="True" rename="Risk_Description" />
+            <SelectField field="Violations_Code1" selected="True" rename="Violation_Code" type="Int32" size="4" />
+            <SelectField field="Violations_Description1" selected="True" rename="Violation" />
+            <SelectField field="Violations_Description2" selected="True" rename="Violation_Description" />
+            <SelectField field="Violations" selected="False" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDIrectory" selected="False" />
+            <SelectField field="Violations_Code2" selected="False" />
+            <SelectField field="Risk1" selected="False" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="485" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <Delimeters value="|" />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="593" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Violations_Code</RootName>
+          <Delimeters value="." />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="702" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations_Code2</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Violations_Description</RootName>
+          <Delimeters value="@" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_6060_1cf61d5b5f43204f91b2aaf53eae7cd9_\Engine_6060_2958d2a3ec124b48a8709459fc43dcdb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="798" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Risk</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Risk</RootName>
+          <Delimeters value=" " />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1277" y="173" width="154" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 36</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1302" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:new_localdb|||chicago_fi_stg</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:new_localdb
+Query=chicago_fi_stg</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1289" y="305" width="152" height="149" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 37</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1314" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\18573\Desktop\chicago43.csv</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>65001</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>chicago43.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1277" y="65" width="152" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 32</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1302" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_6060_1cf61d5b5f43204f91b2aaf53eae7cd9_\Engine_6060_242cdc9a366b684aa1c3107c32d15853~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="185" y="305" width="249" height="253" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 19</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings>
+            <Position x="210" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Inspection ID=True,DBA Name=True,AKA Name=True,License #=True,Facility Type=True,Risk=True,Address=True,City=True,State=True,Zip=True,Inspection Date=True,Inspection Type=True,Results=True,Violations=True,Latitude=True,Longitude=True,Location=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="350" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_6060_1cf61d5b5f43204f91b2aaf53eae7cd9_\Engine_6060_3e69c233ccb6db419ae578a10a1a93fe~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="342" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_6060_1cf61d5b5f43204f91b2aaf53eae7cd9_\Engine_6060_295c19aa8646c140b06e8071bf381dc1~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="342" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_6060_1cf61d5b5f43204f91b2aaf53eae7cd9_\Engine_6060_7452fb224415bf4e867d12728970b0ea~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="185" y="54" width="241" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 20</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="210" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="342" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_6060_1cf61d5b5f43204f91b2aaf53eae7cd9_\Engine_6060_94539062ceb0734194ce912a4cad9d1b~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="12" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Interactive" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_DataProfiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="733a17b3-8493-440f-81a2-cf4a8aec577b" />
+      <Telemetry>
+        <PreviousWorkflowId value="1f6b2663-0b73-488b-8745-b832ec35bf6e" />
+        <OriginWorkflowId value="1f6b2663-0b73-488b-8745-b832ec35bf6e" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\18573\Downloads\Food_Inspections.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Food_Inspections.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_24056_c3011eb0c680394e90a496e4c24a58d1_\Engine_24056_8cead1ca46638a47a0ea7d9a004ed0e8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="294" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection ID" selected="True" />
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="License #" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\18573\Downloads\Food_Inspections.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DBA Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="License #" selected="True" />
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="Risk" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Results" selected="True" />
+            <SelectField field="Violations" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="582" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Inspection_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="738" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="1073741823" type="V_WString" />
+            <FormulaField expression="FileGetFileName(Path)" field="DI_WorkFlowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = FileGetFileName(Path)
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_DataProfiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="733a17b3-8493-440f-81a2-cf4a8aec577b" />
+      <Telemetry>
+        <PreviousWorkflowId value="1f6b2663-0b73-488b-8745-b832ec35bf6e" />
+        <OriginWorkflowId value="1f6b2663-0b73-488b-8745-b832ec35bf6e" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

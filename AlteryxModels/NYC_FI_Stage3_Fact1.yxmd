@@ -1,0 +1,956 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:workshop_azure_alteryx|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* 
+from [damg7370-db].alteryx_7370.NYC_FI_Staging</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_alteryx
+Query=select [damg7370-db].alteryx...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Int32" />
+            <Field name="CAMIS" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Int32" />
+            <Field name="DBA" size="95" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_WString" />
+            <Field name="BORO" size="13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_String" />
+            <Field name="BUILDING" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_WString" />
+            <Field name="STREET" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_String" />
+            <Field name="ZIPCODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="PHONE" size="12" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="CUISINE DESCRIPTION" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_String" />
+            <Field name="INSPECTION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="ACTION" size="130" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_String" />
+            <Field name="VIOLATION CODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="VIOLATION DESCRIPTION" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_WString" />
+            <Field name="CRITICAL FLAG" size="14" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="SCORE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Int16" />
+            <Field name="GRADE" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="GRADE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_String" />
+            <Field name="RECORD DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="INSPECTION TYPE" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="V_String" />
+            <Field name="Latitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Double" />
+            <Field name="Longitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Double" />
+            <Field name="Community Board" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Int16" />
+            <Field name="Council District" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="Census Tract" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="BIN" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Int32" />
+            <Field name="BBL" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Int64" />
+            <Field name="NTA" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+            <Field name="Location Point" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Bool" />
+            <Field name="INSPECTION_DATE_CONVERTED" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Date" />
+            <Field name="GRADE_DATE_CONVERTED" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Date" />
+            <Field name="RECORD_DATE_CONVERTED" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Date" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="Date" />
+            <Field name="DI_WorkflowFileName" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_FI_Staging.* &#xA;from [damg7370-db].alteryx_7370.NYC_FI_Staging" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CUISINE DESCRIPTION" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CUISINE DESCRIPTION" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CUISINE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Right_CUISINE DESCRIPTION" selected="True" rename="Right_CUISINE DESCRIPTION" input="Right_" />
+                <SelectField field="Right_CUISINE_DESCRIPTION_SK" selected="True" input="Right_" />
+                <SelectField field="Right_BORO" selected="False" rename="Right_BORO" input="Right_" />
+                <SelectField field="Right_BUILDING" selected="False" rename="Right_BUILDING" input="Right_" />
+                <SelectField field="Right_STREET" selected="False" rename="Right_STREET" input="Right_" />
+                <SelectField field="Right_ZIPCODE" selected="False" rename="Right_ZIPCODE" input="Right_" />
+                <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CUISINE DESCRIPTION" selected="True" />
+            <SelectField field="Right_CUISINE DESCRIPTION" selected="True" />
+            <SelectField field="CUISINE_DESCRIPTION_SK" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:workshop_azure_alteryx|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* 
+from [damg7370-db].alteryx_7370.Dim_NYC_Addresses</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_alteryx
+Query=select [damg7370-db].alteryx...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AddressSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Int32" />
+            <Field name="BORO" size="13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="V_String" />
+            <Field name="BUILDING" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="V_WString" />
+            <Field name="STREET" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="V_String" />
+            <Field name="ZIPCODE" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="String" />
+            <Field name="Latitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Double" />
+            <Field name="Longitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Double" />
+            <Field name="Community Board" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Int16" />
+            <Field name="Council District" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="String" />
+            <Field name="Census Tract" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="String" />
+            <Field name="BIN" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Int32" />
+            <Field name="BBL" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Int64" />
+            <Field name="NTA" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="Date" />
+            <Field name="DI_WorkflowFileName" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="String" />
+            <Field name="DI_WorkflowDirectory" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Addresses.* &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Addresses" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BORO" />
+            <Field field="BUILDING" />
+            <Field field="STREET" />
+            <Field field="ZIPCODE" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+            <Field field="Community Board" />
+            <Field field="Council District" />
+            <Field field="Census Tract" />
+            <Field field="BIN" />
+            <Field field="BBL" />
+            <Field field="NTA" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BORO" />
+            <Field field="BUILDING" />
+            <Field field="STREET" />
+            <Field field="ZIPCODE" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+            <Field field="Community Board" />
+            <Field field="Council District" />
+            <Field field="Census Tract" />
+            <Field field="BIN" />
+            <Field field="BBL" />
+            <Field field="NTA" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_BORO" selected="True" input="Left_" />
+                <SelectField field="Left_BUILDING" selected="True" input="Left_" />
+                <SelectField field="Left_STREET" selected="True" input="Left_" />
+                <SelectField field="Left_ZIPCODE" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Community Board" selected="True" input="Left_" />
+                <SelectField field="Left_Council District" selected="True" input="Left_" />
+                <SelectField field="Left_Census Tract" selected="True" input="Left_" />
+                <SelectField field="Left_BIN" selected="True" input="Left_" />
+                <SelectField field="Left_BBL" selected="True" input="Left_" />
+                <SelectField field="Left_NTA" selected="True" input="Left_" />
+                <SelectField field="Right_AddressSK" selected="True" input="Right_" />
+                <SelectField field="Right_BORO" selected="False" rename="Right_BORO" input="Right_" />
+                <SelectField field="Right_BUILDING" selected="False" rename="Right_BUILDING" input="Right_" />
+                <SelectField field="Right_STREET" selected="False" rename="Right_STREET" input="Right_" />
+                <SelectField field="Right_ZIPCODE" selected="False" rename="Right_ZIPCODE" input="Right_" />
+                <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                <SelectField field="Right_Community Board" selected="False" rename="Right_Community Board" input="Right_" />
+                <SelectField field="Right_Council District" selected="False" rename="Right_Council District" input="Right_" />
+                <SelectField field="Right_Census Tract" selected="False" rename="Right_Census Tract" input="Right_" />
+                <SelectField field="Right_BIN" selected="False" rename="Right_BIN" input="Right_" />
+                <SelectField field="Right_BBL" selected="False" rename="Right_BBL" input="Right_" />
+                <SelectField field="Right_NTA" selected="False" rename="Right_NTA" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_3084_bc52ef3bcfa66542aaa4de4b7e939de6_\Engine_3084_fe351cd65022584a8ad374d368409377~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BORO" selected="True" />
+            <SelectField field="BUILDING" selected="True" />
+            <SelectField field="STREET" selected="True" />
+            <SelectField field="ZIPCODE" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Community Board" selected="True" />
+            <SelectField field="Council District" selected="True" />
+            <SelectField field="Census Tract" selected="True" />
+            <SelectField field="BIN" selected="True" />
+            <SelectField field="BBL" selected="True" />
+            <SelectField field="NTA" selected="True" />
+            <SelectField field="AddressSK" selected="True" />
+            <SelectField field="Right_DI_CreateDate" selected="False" rename="DI_CreateDate" />
+            <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="DI_WorkFlowFileName" />
+            <SelectField field="DI_WorkflowDirectory" selected="False" rename="DI_WorkFlowFileDirectory" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:workshop_azure_alteryx|||select [damg7370-db].alteryx_7370.Dim_NYC_Cuisine.[CUISINE DESCRIPTION],
+	[damg7370-db].alteryx_7370.Dim_NYC_Cuisine.CUISINE_DESCRIPTION_SK 
+from [damg7370-db].alteryx_7370.Dim_NYC_Cuisine</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_alteryx
+Query=select [damg7370-db].alteryx...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CUISINE DESCRIPTION" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Cuisine.[CUISINE DESCRIPTION],&#xA;	[damg7370-db].alteryx_7370.Dim_NYC_Cuisine.CUISINE_DESCRIPTION_SK &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Cuisine" type="V_String" />
+            <Field name="CUISINE_DESCRIPTION_SK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Cuisine.[CUISINE DESCRIPTION],&#xA;	[damg7370-db].alteryx_7370.Dim_NYC_Cuisine.CUISINE_DESCRIPTION_SK &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Cuisine" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:workshop_azure_alteryx|||select [damg7370-db].alteryx_7370.Dim_NYC_Borough.BoroSK,
+	[damg7370-db].alteryx_7370.Dim_NYC_Borough.BORO 
+from [damg7370-db].alteryx_7370.Dim_NYC_Borough</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_alteryx
+Query=select [damg7370-db].alteryx...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BoroSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Borough.BoroSK,&#xA;	[damg7370-db].alteryx_7370.Dim_NYC_Borough.BORO &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Borough" type="Int32" />
+            <Field name="BORO" size="13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.Dim_NYC_Borough.BoroSK,&#xA;	[damg7370-db].alteryx_7370.Dim_NYC_Borough.BORO &#xA;from [damg7370-db].alteryx_7370.Dim_NYC_Borough" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:workshop_azure_alteryx|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* 
+from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_alteryx
+Query=select [damg7370-db].alteryx...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FoodPlacesSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* &#xA;from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places" type="Int32" />
+            <Field name="CAMIS" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* &#xA;from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places" type="Int32" />
+            <Field name="DBA" size="95" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* &#xA;from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places" type="V_WString" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* &#xA;from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places" type="Date" />
+            <Field name="DI_WorkflowFileName" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* &#xA;from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places" type="String" />
+            <Field name="DI_WorkflowDirectory" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=alteryx_7370;PWD=__EncPwd1__;DATABASE=damg7370-db;SERVER=damg7370-sql-adi-dbserver.database.windows.net|||select [damg7370-db].alteryx_7370.NYC_Dim_Food_Places.* &#xA;from [damg7370-db].alteryx_7370.NYC_Dim_Food_Places" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_3084_bc52ef3bcfa66542aaa4de4b7e939de6_\Engine_3084_b6dfa6f8762ba74aae069b359841592b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="702" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_FoodPlacesSK" selected="True" />
+                <SelectField field="Input_#1_DI_CreateDate" selected="True" />
+                <SelectField field="Input_#1_DI_WorkflowFileName" selected="True" />
+                <SelectField field="Input_#1_DI_WorkflowDirectory" selected="True" />
+                <SelectField field="Input_#2_PHONE" selected="True" />
+                <SelectField field="Input_#2_Inspection_Date" selected="True" />
+                <SelectField field="Input_#2_BoroSK" selected="True" />
+                <SelectField field="Input_#3_CUISINE_DESCRIPTION_SK" selected="True" />
+                <SelectField field="Input_#4_AddressSK" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CAMIS" selected="True" />
+            <SelectField field="DBA" selected="True" />
+            <SelectField field="FoodPlacesSK" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_3084_bc52ef3bcfa66542aaa4de4b7e939de6_\Engine_3084_f0df3825e83f47468f4794593d637ea1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="305" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CAMIS" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CAMIS" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CAMIS" selected="True" input="Left_" />
+                <SelectField field="Left_DBA" selected="True" input="Left_" />
+                <SelectField field="Right_FoodPlacesSK" selected="True" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="True" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="True" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" input="Right_" />
+                <SelectField field="Right_CRITICAL FLAG" selected="False" rename="Right_CRITICAL FLAG" input="Right_" />
+                <SelectField field="Right_BORO" selected="False" rename="Right_BORO" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BORO" selected="True" />
+            <SelectField field="PHONE" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="BoroSK" selected="True" />
+            <SelectField field="INSPECTION DATE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_3084_bc52ef3bcfa66542aaa4de4b7e939de6_\Engine_3084_13d964de2b506c4ba457c981d9a3c685~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BORO" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BORO" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_BORO" selected="True" input="Left_" />
+                <SelectField field="Left_PHONE" selected="True" input="Left_" />
+                <SelectField field="Left_INSPECTION_DATE_CONVERTED" selected="True" rename="Inspection_Date" input="Left_" />
+                <SelectField field="Right_BoroSK" selected="True" input="Right_" />
+                <SelectField field="Right_BORO" selected="True" rename="Right_BORO" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_3084_bc52ef3bcfa66542aaa4de4b7e939de6_\Engine_3084_0c6adbf13e932c42ae6953b2554c004d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="954" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="822" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Inspection_Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MMddyyyy</Format>
+          <OutputFieldName>Inspection_Date_SK</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection_Date To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1074" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:workshop_azure_alteryx|||FCT_NYC_Food_Inspections</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_alteryx
+Query=FCT_NYC_Food_Inspections</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_FI_Stage3_Fact1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="66e5cbc0-1ed4-4024-b877-e0881a8eb388" />
+      <Telemetry>
+        <PreviousWorkflowId value="24814eb0-6478-4277-a328-2e5e01c8213d" />
+        <OriginWorkflowId value="24814eb0-6478-4277-a328-2e5e01c8213d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

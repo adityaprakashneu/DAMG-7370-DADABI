@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:damg7370_input|||select DimProduct.* 
+from DimProduct</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370_input
+Query=select DimProduct.* 
+from D...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int32" />
+            <Field name="ProductAlternateKey" size="25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ProductSubcategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="WString" />
+            <Field name="EnglishProductName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="SpanishProductName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="FrenchProductName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="FixedDecimal" />
+            <Field name="FinishedGoodsFlag" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Bool" />
+            <Field name="Color" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="SafetyStockLevel" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int16" />
+            <Field name="ReorderPoint" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int16" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="FixedDecimal" />
+            <Field name="Size" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="SizeRange" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="Weight" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Double" />
+            <Field name="DaysToManufacture" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int32" />
+            <Field name="ProductLine" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="WString" />
+            <Field name="DealerPrice" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="FixedDecimal" />
+            <Field name="Class" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="WString" />
+            <Field name="Style" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="WString" />
+            <Field name="ModelName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="LargePhoto" size="2147483647" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Blob" />
+            <Field name="EnglishDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="FrenchDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ChineseDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ArabicDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="HebrewDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ThaiDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="GermanDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="JapaneseDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="TurkishDescription" size="400" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="StartDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="DateTime" />
+            <Field name="EndDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="DateTime" />
+            <Field name="Status" size="7" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:damg7370_input|||select DimProductSubcategory.* 
+from DimProductSubcategory</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370_input
+Query=select DimProductSubcategory...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductSubcategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="Int32" />
+            <Field name="ProductSubcategoryAlternateKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="Int32" />
+            <Field name="EnglishProductSubcategoryName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="V_WString" />
+            <Field name="SpanishProductSubcategoryName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="V_WString" />
+            <Field name="FrenchProductSubcategoryName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="V_WString" />
+            <Field name="ProductCategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="306" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ProductAlternateKey" selected="True" />
+            <Field field="WeightUnitMeasureCode" selected="True" />
+            <Field field="SizeUnitMeasureCode" selected="True" />
+            <Field field="EnglishProductName" selected="True" />
+            <Field field="SpanishProductName" selected="True" />
+            <Field field="FrenchProductName" selected="True" />
+            <Field field="Color" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="SizeRange" selected="True" />
+            <Field field="ProductLine" selected="True" />
+            <Field field="Class" selected="True" />
+            <Field field="Style" selected="True" />
+            <Field field="ModelName" selected="True" />
+            <Field field="EnglishDescription" selected="True" />
+            <Field field="FrenchDescription" selected="True" />
+            <Field field="ChineseDescription" selected="True" />
+            <Field field="ArabicDescription" selected="True" />
+            <Field field="HebrewDescription" selected="True" />
+            <Field field="ThaiDescription" selected="True" />
+            <Field field="GermanDescription" selected="True" />
+            <Field field="JapaneseDescription" selected="True" />
+            <Field field="TurkishDescription" selected="True" />
+            <Field field="Status" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int32" />
+            <Field name="ProductAlternateKey" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="ProductSubcategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int32" />
+            <Field name="WeightUnitMeasureCode" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="SizeUnitMeasureCode" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="EnglishProductName" size="32" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="SpanishProductName" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="FrenchProductName" size="46" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="FixedDecimal" />
+            <Field name="FinishedGoodsFlag" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Bool" />
+            <Field name="Color" size="12" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="SafetyStockLevel" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int16" />
+            <Field name="ReorderPoint" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int16" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="FixedDecimal" />
+            <Field name="Size" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="SizeRange" size="8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="Weight" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Double" />
+            <Field name="DaysToManufacture" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Int32" />
+            <Field name="ProductLine" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="DealerPrice" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="FixedDecimal" />
+            <Field name="Class" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="Style" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+            <Field name="ModelName" size="27" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="LargePhoto" size="2147483647" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="Blob" />
+            <Field name="EnglishDescription" size="221" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="FrenchDescription" size="269" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ChineseDescription" size="83" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ArabicDescription" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="HebrewDescription" size="203" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="ThaiDescription" size="196" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="GermanDescription" size="320" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_String" />
+            <Field name="JapaneseDescription" size="119" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="TurkishDescription" size="233" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="V_WString" />
+            <Field name="StartDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="DateTime" />
+            <Field name="EndDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="DateTime" />
+            <Field name="Status" size="7" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProduct.* &#xA;from DimProduct" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="306" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="EnglishProductSubcategoryName" selected="True" />
+            <Field field="SpanishProductSubcategoryName" selected="True" />
+            <Field field="FrenchProductSubcategoryName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductSubcategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="Int32" />
+            <Field name="ProductSubcategoryAlternateKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="Int32" />
+            <Field name="EnglishProductSubcategoryName" size="17" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="V_String" />
+            <Field name="SpanishProductSubcategoryName" size="23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="V_String" />
+            <Field name="FrenchProductSubcategoryName" size="26" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="V_String" />
+            <Field name="ProductCategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductSubcategory.* &#xA;from DimProductSubcategory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductKey" selected="True" />
+            <SelectField field="ProductAlternateKey" selected="True" />
+            <SelectField field="ProductSubcategoryKey" selected="True" />
+            <SelectField field="WeightUnitMeasureCode" selected="True" />
+            <SelectField field="SizeUnitMeasureCode" selected="True" />
+            <SelectField field="EnglishProductName" selected="True" />
+            <SelectField field="StandardCost" selected="True" />
+            <SelectField field="FinishedGoodsFlag" selected="True" />
+            <SelectField field="Color" selected="True" />
+            <SelectField field="SafetyStockLevel" selected="True" />
+            <SelectField field="ReorderPoint" selected="True" />
+            <SelectField field="ListPrice" selected="True" />
+            <SelectField field="Size" selected="True" />
+            <SelectField field="SizeRange" selected="True" />
+            <SelectField field="Weight" selected="True" />
+            <SelectField field="DaysToManufacture" selected="True" />
+            <SelectField field="ProductLine" selected="True" />
+            <SelectField field="DealerPrice" selected="True" />
+            <SelectField field="Class" selected="True" />
+            <SelectField field="Style" selected="True" />
+            <SelectField field="ModelName" selected="True" />
+            <SelectField field="EnglishDescription" selected="True" />
+            <SelectField field="StartDate" selected="True" />
+            <SelectField field="EndDate" selected="True" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductSubcategoryKey" selected="True" />
+            <SelectField field="ProductSubcategoryAlternateKey" selected="True" />
+            <SelectField field="EnglishProductSubcategoryName" selected="True" />
+            <SelectField field="ProductCategoryKey" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductSubcategoryKey" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductSubcategoryKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ProductSubcategoryKey" selected="True" rename="Right_ProductSubcategoryKey" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_22952_92141979a3df7747b9ced5ec1cc2533e_\Engine_22952_096a6138ee492449bb89cab7aa71267a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_22952_92141979a3df7747b9ced5ec1cc2533e_\Engine_22952_7d62ee6c5e2aad4187af4b80d84bf1e5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="630" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:damg7370_input|||select DimProductCategory.ProductCategoryKey,
+	DimProductCategory.ProductCategoryAlternateKey,
+	DimProductCategory.EnglishProductCategoryName 
+from DimProductCategory</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370_input
+Query=select DimProductCategory.Pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductCategoryKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductCategory.ProductCategoryKey,&#xA;	DimProductCategory.ProductCategoryAlternateKey,&#xA;	DimProductCategory.EnglishProductCategoryName &#xA;from DimProductCategory" type="Int32" />
+            <Field name="ProductCategoryAlternateKey" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductCategory.ProductCategoryKey,&#xA;	DimProductCategory.ProductCategoryAlternateKey,&#xA;	DimProductCategory.EnglishProductCategoryName &#xA;from DimProductCategory" type="Int32" />
+            <Field name="EnglishProductCategoryName" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=AdventureWorksDW2019;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select DimProductCategory.ProductCategoryKey,&#xA;	DimProductCategory.ProductCategoryAlternateKey,&#xA;	DimProductCategory.EnglishProductCategoryName &#xA;from DimProductCategory" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="954" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductCategoryKey" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductCategoryKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ProductKey" selected="True" input="Left_" />
+                <SelectField field="Left_ProductAlternateKey" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryKey" selected="True" input="Left_" />
+                <SelectField field="Left_WeightUnitMeasureCode" selected="True" input="Left_" />
+                <SelectField field="Left_SizeUnitMeasureCode" selected="True" input="Left_" />
+                <SelectField field="Left_EnglishProductName" selected="True" rename="ProductName" input="Left_" />
+                <SelectField field="Left_StandardCost" selected="True" input="Left_" />
+                <SelectField field="Left_FinishedGoodsFlag" selected="True" input="Left_" />
+                <SelectField field="Left_Color" selected="True" input="Left_" />
+                <SelectField field="Left_SafetyStockLevel" selected="True" input="Left_" />
+                <SelectField field="Left_ReorderPoint" selected="True" input="Left_" />
+                <SelectField field="Left_ListPrice" selected="True" input="Left_" />
+                <SelectField field="Left_Size" selected="True" input="Left_" />
+                <SelectField field="Left_SizeRange" selected="True" input="Left_" />
+                <SelectField field="Left_Weight" selected="True" input="Left_" />
+                <SelectField field="Left_DaysToManufacture" selected="True" input="Left_" />
+                <SelectField field="Left_ProductLine" selected="True" input="Left_" />
+                <SelectField field="Left_DealerPrice" selected="True" input="Left_" />
+                <SelectField field="Left_Class" selected="True" input="Left_" />
+                <SelectField field="Left_Style" selected="True" input="Left_" />
+                <SelectField field="Left_ModelName" selected="True" input="Left_" />
+                <SelectField field="Left_EnglishDescription" selected="True" input="Left_" />
+                <SelectField field="Left_StartDate" selected="True" input="Left_" />
+                <SelectField field="Left_EndDate" selected="True" input="Left_" />
+                <SelectField field="Left_Status" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryAlternateKey" selected="True" input="Left_" />
+                <SelectField field="Left_EnglishProductSubcategoryName" selected="True" rename="SubcategoryName" input="Left_" />
+                <SelectField field="Left_ProductCategoryKey" selected="True" input="Left_" />
+                <SelectField field="Right_ProductCategoryKey" selected="False" rename="Right_ProductCategoryKey" input="Right_" />
+                <SelectField field="Right_ProductCategoryAlternateKey" selected="True" input="Right_" />
+                <SelectField field="Right_EnglishProductCategoryName" selected="True" rename="CategoryName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="750" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1098" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_22952_92141979a3df7747b9ced5ec1cc2533e_\Engine_22952_806ec91ca82e2f42a2c92143c2ccba3c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1098" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_22952_92141979a3df7747b9ced5ec1cc2533e_\Engine_22952_b10f91e34a20874cb3ac89210cacfbd7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1098" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:AdventureWorks|||ADW_Dim_Product_Sold</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AdventureWorks
+Query=ADW_Dim_Product_Sold</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Left" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Right" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Left" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Right" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ADW_Product</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b4de7037-641d-47fe-8518-3876d4b63618" />
+      <Telemetry>
+        <PreviousWorkflowId value="d43a4a50-857f-471a-932b-cd3e07f22f38" />
+        <OriginWorkflowId value="d43a4a50-857f-471a-932b-cd3e07f22f38" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
