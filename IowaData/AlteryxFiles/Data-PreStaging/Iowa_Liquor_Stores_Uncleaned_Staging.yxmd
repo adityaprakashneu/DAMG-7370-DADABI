@@ -1,0 +1,1072 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="792" height="226" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 15</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Iowa_Liquor_Stores_20221002_notCleaned.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="Name" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="Store Status" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="Address" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="City" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="State" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="Zip Code" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="Store Address" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+                <Field name="Report Date" size="254" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="187" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Store" selected="True" />
+                <Field field="Name" selected="True" />
+                <Field field="Store Status" selected="True" />
+                <Field field="Address" selected="True" />
+                <Field field="City" selected="True" />
+                <Field field="State" selected="True" />
+                <Field field="Zip Code" selected="True" />
+                <Field field="Store Address" selected="True" />
+                <Field field="Report Date" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="6" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="String" />
+                <Field name="Name" size="58" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_String" />
+                <Field name="Store Status" size="1" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="String" />
+                <Field name="Address" size="42" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_String" />
+                <Field name="City" size="17" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="V_String" />
+                <Field name="State" size="2" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="String" />
+                <Field name="Zip Code" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="Int32" />
+                <Field name="Store Address" size="28" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="String" />
+                <Field name="Report Date" size="10" source="File: C:\Users\18573\Downloads\IowaData\Data - Iowa\Iowa_Liquor_Stores_20221002_notCleaned.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="295" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Store","Name","Store Status","Address","City","State","Zip Code","Store Address","Report Date"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="499" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="FileGetFileName(&quot;C:\Users\18573\Downloads\IowaData\AlteryxFiles\Iowa_Liquor_Stores_Staging.yxmd&quot;)" field="DI_WorkFlowFileName" size="64" type="String" />
+                <FormulaField expression="FileGetDir(&quot;C:\Users\18573\Downloads\IowaData\AlteryxFiles\Iowa_Liquor_Stores_Staging.yxmd&quot;)" field="DI_WorkFlowFileDirectory" size="64" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = FileGetFileName("C:\Users\18...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="391" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Report Date</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy</Format>
+              <OutputFieldName>ReportDate</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Report Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="607" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Store" selected="True" />
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Store Status" selected="True" />
+                <SelectField field="Address" selected="True" />
+                <SelectField field="City" selected="True" />
+                <SelectField field="State" selected="True" />
+                <SelectField field="Zip Code" selected="True" />
+                <SelectField field="Store Address" selected="True" />
+                <SelectField field="Report Date" selected="True" />
+                <SelectField field="ReportDate" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkFlowFileName" selected="True" />
+                <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="715" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370_IOWA|||stg_iowa_liquor_stores_notcleaned</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370_IOWA
+Query=stg_iowa_liquor_stores_notcl...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="329" width="1116" height="621" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Staging</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="593" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File FileFormat="23" RecordLimit="">aka:damg7370_IOWA|||select stg_iowa_liquor_stores_notcleaned.* 
+from stg_iowa_liquor_stores_notcleaned</File>
+              <FormatSpecificOptions>
+                <SingleRowFetch>False</SingleRowFetch>
+                <ReadCentroids>False</ReadCentroids>
+                <TableStyle>Quoted</TableStyle>
+                <CacheData>False</CacheData>
+                <SessionReadOnly>True</SessionReadOnly>
+                <ReadUncommitted>False</ReadUncommitted>
+                <NoProgress>True</NoProgress>
+                <PostSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <PreSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370_IOWA
+Query=select stg_iowa_liquor_store...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+                <Field name="Name" size="58" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="V_String" />
+                <Field name="Store Status" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+                <Field name="Address" size="42" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="V_String" />
+                <Field name="City" size="17" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="V_String" />
+                <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+                <Field name="Zip Code" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="Int32" />
+                <Field name="Store Address" size="28" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+                <Field name="Report Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+                <Field name="ReportDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="Date" />
+                <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="DateTime" />
+                <Field name="DI_WorkFlowFileName" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+                <Field name="DI_WorkFlowFileDirectory" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=damg7370_Iowa_MidProject;SERVER=localhost|||select stg_iowa_liquor_stores_notcleaned.* &#xA;from stg_iowa_liquor_stores_notcleaned" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="198" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Store" selected="True" />
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Store Status" selected="True" />
+                <SelectField field="Address" selected="True" />
+                <SelectField field="City" selected="True" />
+                <SelectField field="State" selected="True" />
+                <SelectField field="Zip Code" selected="True" />
+                <SelectField field="Store Address" selected="True" />
+                <SelectField field="Report Date" selected="True" />
+                <SelectField field="ReportDate" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkFlowFileName" selected="True" />
+                <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="486" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Store" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="606" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370_IOWA|||stg_iowa_liquor_stores_notcleaned</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370_IOWA
+Query=stg_iowa_liquor_stores_notcl...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="306" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([Name], [City], ' ')" field="Name" size="58" type="V_String" />
+                <FormulaField expression="REGEX_Replace([Name],'[^a-zA-Z0-9]+',' ')" field="Name" size="58" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Name = Replace([Name], [City], ' ')
+Name = REGEX_Replace([Name],'[^a-zA-Z0-9]+',...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings>
+            <Position x="402" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Store","Name","Store Status","Address","City","State","Zip Code","Store Address","Report Date","ReportDate","DI_CreateDate","DI_WorkFlowFileName","DI_WorkFlowFileDirectory"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">True</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="486" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Address" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="486" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Store Status" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Store Status - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="582" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Store Address" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="858" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Address" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Address" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Store" selected="True" input="Left_" />
+                    <SelectField field="Left_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Store Status" selected="True" input="Left_" />
+                    <SelectField field="Left_Address" selected="True" input="Left_" />
+                    <SelectField field="Left_City" selected="True" input="Left_" />
+                    <SelectField field="Left_State" selected="True" input="Left_" />
+                    <SelectField field="Left_Zip Code" selected="True" input="Left_" />
+                    <SelectField field="Left_Store Address" selected="True" input="Left_" />
+                    <SelectField field="Left_Report Date" selected="True" input="Left_" />
+                    <SelectField field="Left_ReportDate" selected="True" input="Left_" />
+                    <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                    <SelectField field="Left_DI_WorkFlowFileName" selected="True" input="Left_" />
+                    <SelectField field="Left_DI_WorkFlowFileDirectory" selected="True" input="Left_" />
+                    <SelectField field="Right_Store" selected="True" rename="Right_Store" input="Right_" />
+                    <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                    <SelectField field="Right_Store Status" selected="True" rename="Right_Store Status" input="Right_" />
+                    <SelectField field="Right_Address" selected="True" rename="Right_Address" input="Right_" />
+                    <SelectField field="Right_City" selected="True" rename="Right_City" input="Right_" />
+                    <SelectField field="Right_State" selected="True" rename="Right_State" input="Right_" />
+                    <SelectField field="Right_Zip Code" selected="True" rename="Right_Zip Code" input="Right_" />
+                    <SelectField field="Right_Store Address" selected="True" rename="Right_Store Address" input="Right_" />
+                    <SelectField field="Right_Report Date" selected="True" rename="Right_Report Date" input="Right_" />
+                    <SelectField field="Right_ReportDate" selected="True" rename="Right_ReportDate" input="Right_" />
+                    <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                    <SelectField field="Right_DI_WorkFlowFileName" selected="True" rename="Right_DI_WorkFlowFileName" input="Right_" />
+                    <SelectField field="Right_DI_WorkFlowFileDirectory" selected="True" rename="Right_DI_WorkFlowFileDirectory" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="942" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1038" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Right_Store Address] == [Store Address] THEN &#xA;[Right_Address] = [Address] ELSE 1 ENDIF" field="Address" size="42" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Address = IF [Right_Store Address] == [Store Address] THEN 
+[Right_Address] = [A...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="762" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="678" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsEmpty</Operator>
+                <Field>Store Address</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-04-05 02:38:52</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2023-04-05 02:38:52</StartDate>
+                  <EndDate>2023-04-05 02:38:52</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsEmpty([Store Address])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="666" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Store Status" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Store Status - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="486" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Store Status</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-04-05 02:47:43</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>A</Operand>
+                  <StartDate>2023-04-05 02:47:43</StartDate>
+                  <EndDate>2023-04-05 02:47:43</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Store Status] = "A"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="606" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Store Address" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="497" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Store Status" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Store Status - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="606" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Store Address" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="870" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="750" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotEmpty</Operator>
+                <Field>Store Address</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-04-05 03:00:39</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2023-04-05 03:00:39</StartDate>
+                  <EndDate>2023-04-05 03:00:39</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsEmpty([Store Address])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="750" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsEmpty</Operator>
+                <Field>Store Address</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-04-05 03:01:01</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2023-04-05 03:01:01</StartDate>
+                  <EndDate>2023-04-05 03:01:01</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsEmpty([Store Address])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="594" y="378" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Address], &quot;\bAVE\b&quot;, &quot;AVENUE&quot;)" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' BLVD', ' BOULEVARD')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' S ', ' SOUTH ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' N ', ' NORTH ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' E ', ' EAST ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' W ', ' WEST ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' SE ', ' SOUTH EAST ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' SW ', ' SOUTH WEST ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' NE ', ' NORTH EAST ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' NW ', ' NORTHWEST ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="REGEX_Replace([Address], &quot;\bST\b&quot;, &quot;STREET&quot;)&#xA;" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], '\bRD\b', ' ROAD ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], ' STE ', ' SUITE ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="Replace([Address], '\bDR\b', ' DRIVE ')" field="Address" size="42" type="V_String" />
+                <FormulaField expression="ReplaceChar([Address], &quot;.&quot;, &quot;&quot;)&#xA;" field="Address" size="42" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Address = REGEX_Replace([Address], "\bAVE\b", "AVENUE")
+Address = Replace([Addre...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="498" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>Address</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-04-05 03:27:33</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>ST.</Operand>
+                  <StartDate>2023-04-05 03:27:33</StartDate>
+                  <EndDate>2023-04-05 03:27:33</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([Address],"ST.")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Unique" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Unique" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="44" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Duplicates" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Right" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Unique" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Duplicates" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="51" Connection="True" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="52" Connection="True" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="True" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="True" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Iowa_Liquor_Stores_Uncleaned_Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="46974e40-8adf-402c-83dc-703058dfc5d3" />
+      <Telemetry>
+        <PreviousWorkflowId value="60477bd1-441d-4c05-8c89-52217f1a86c7" />
+        <OriginWorkflowId value="d4897e8d-83ab-4a53-8a04-f2247609ffe5" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

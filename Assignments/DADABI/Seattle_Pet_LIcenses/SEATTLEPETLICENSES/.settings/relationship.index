@@ -1,0 +1,125 @@
+[ {
+  "baseItem" : {
+    "id" : "_8bgzAMLFEe2doPrLaSYDHA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_AKMLkMLDEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA - employeedepthistoryscd",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_AKMLkMLDEe2doPrLaSYDHA - EmployeeDeptChangesV1_csv_metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA - EmployeeDeptHistorySCD",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_cuSgYMLSEe2doPrLaSYDHA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_zt-IMMLSEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA - employeedepthistoryscd_unsorted",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA - EmployeeDeptHistorySCD_unsorted",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zt-IMMLSEe2doPrLaSYDHA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_fAfsMMLVEe2doPrLaSYDHA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_B0hEwMLWEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA - employeedepthistoryscd_denorm",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_B0hEwMLWEe2doPrLaSYDHA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA - EmployeeDeptHistorySCD_Denorm",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xmHUwMLbEe2doPrLaSYDHA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uD5q4MLeEe2doPrLaSYDHA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_60kwwMLNEe2doPrLaSYDHA - employeedepthistoryscd",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_C3Hq8MIKEe2doPrLaSYDHA - EmployeeDeptHistorySCD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_uD5q4MLeEe2doPrLaSYDHA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

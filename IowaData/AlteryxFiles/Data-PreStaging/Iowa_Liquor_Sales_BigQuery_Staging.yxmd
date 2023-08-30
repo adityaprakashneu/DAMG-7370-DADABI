@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* 
+from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=Iowa-GoogleBigQuery
+Query=select Iowadataset_Iowa_liqu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="invoice_and_item_number" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="reporting_date" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Date" />
+            <Field name="store_number" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="store_name" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="address" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="city" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="zip_code" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="store_location" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="county_number" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="county" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="category" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="category_name" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="vendor_number" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="vendor_name" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="item_number" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="item_description" size="16384" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="pack" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int64" />
+            <Field name="bottle_volume_ml" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int64" />
+            <Field name="state_bottle_cost" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="state_bottle_retail" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="bottles_sold" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int64" />
+            <Field name="sale_dollars" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="volume_sold_liters" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="volume_sold_gallons" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="462" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"invoice_and_item_number","reporting_date","store_number","store_name","address","city","zip_code","store_location","county_number","county","category","category_name","vendor_number","vendor_name","item_number","item_description","pack","bottle_volume_ml","state_bottle_cost","state_bottle_retail","bottles_sold","sale_dollars","volume_sold_liters","volume_sold_gallons"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="FileGetFileName(&quot;C:\Users\18573\Downloads\IowaData\AlteryxFiles\Iowa_Liquor_Sales_BigQuery_Staging.yxmd&quot;)" field="DI_WorkFlowFileName" size="64" type="String" />
+            <FormulaField expression="FileGetDir(&quot;C:\Users\18573\Downloads\IowaData\AlteryxFiles\Iowa_Liquor_Sales_BigQuery_Staging.yxmd&quot;)" field="DI_WorkFlowFileDirectory" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkFlowFileName = FileGetFileName("C:\Users\18...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="678" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:damg7370_IOWA|||stg_iowa_liquor_sales_bigquery</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370_IOWA
+Query=stg_iowa_liquor_sales_bigque...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="invoice_and_item_number" selected="True" />
+            <SelectField field="reporting_date" selected="True" />
+            <SelectField field="store_number" selected="True" />
+            <SelectField field="store_name" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="zip_code" selected="True" />
+            <SelectField field="store_location" selected="True" />
+            <SelectField field="county_number" selected="True" />
+            <SelectField field="county" selected="True" />
+            <SelectField field="category" selected="True" />
+            <SelectField field="category_name" selected="True" />
+            <SelectField field="vendor_number" selected="True" />
+            <SelectField field="vendor_name" selected="True" />
+            <SelectField field="item_number" selected="True" />
+            <SelectField field="item_description" selected="True" />
+            <SelectField field="pack" selected="True" />
+            <SelectField field="bottle_volume_ml" selected="True" />
+            <SelectField field="state_bottle_cost" selected="True" />
+            <SelectField field="state_bottle_retail" selected="True" />
+            <SelectField field="bottles_sold" selected="True" />
+            <SelectField field="sale_dollars" selected="True" />
+            <SelectField field="volume_sold_liters" selected="True" />
+            <SelectField field="volume_sold_gallons" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="invoice_and_item_number" selected="True" />
+            <Field field="store_number" selected="True" />
+            <Field field="store_name" selected="True" />
+            <Field field="address" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="zip_code" selected="True" />
+            <Field field="store_location" selected="True" />
+            <Field field="county_number" selected="True" />
+            <Field field="county" selected="True" />
+            <Field field="category" selected="True" />
+            <Field field="category_name" selected="True" />
+            <Field field="vendor_number" selected="True" />
+            <Field field="vendor_name" selected="True" />
+            <Field field="item_number" selected="True" />
+            <Field field="item_description" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="invoice_and_item_number" size="16" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="String" />
+            <Field name="reporting_date" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Date" />
+            <Field name="store_number" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int16" />
+            <Field name="store_name" size="58" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_String" />
+            <Field name="address" size="55" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_String" />
+            <Field name="city" size="17" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_String" />
+            <Field name="zip_code" size="7" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="String" />
+            <Field name="store_location" size="29" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="String" />
+            <Field name="county_number" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Byte" />
+            <Field name="county" size="13" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_String" />
+            <Field name="category" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="category_name" size="36" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_String" />
+            <Field name="vendor_number" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="vendor_name" size="67" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="item_number" size="7" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="String" />
+            <Field name="item_description" size="63" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="V_WString" />
+            <Field name="pack" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int64" />
+            <Field name="bottle_volume_ml" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int64" />
+            <Field name="state_bottle_cost" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="state_bottle_retail" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="bottles_sold" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Int64" />
+            <Field name="sale_dollars" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="volume_sold_liters" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+            <Field name="volume_sold_gallons" source="File: odbc:DSN=Iowa-GoogleBigQuery|||select Iowadataset_Iowa_liquor_sales_bigquery.* &#xA;from Iowadataset.Iowa_liquor_sales_bigquery Iowadataset_Iowa_liquor_sales_bigquery" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="invoice_and_item_number" selected="True" />
+            <SelectField field="reporting_date" selected="True" />
+            <SelectField field="store_number" selected="True" />
+            <SelectField field="store_name" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="zip_code" selected="True" />
+            <SelectField field="store_location" selected="True" />
+            <SelectField field="county_number" selected="True" />
+            <SelectField field="county" selected="True" />
+            <SelectField field="category" selected="True" />
+            <SelectField field="category_name" selected="True" />
+            <SelectField field="vendor_number" selected="True" />
+            <SelectField field="vendor_name" selected="True" />
+            <SelectField field="item_number" selected="True" />
+            <SelectField field="item_description" selected="True" />
+            <SelectField field="pack" selected="True" />
+            <SelectField field="bottle_volume_ml" selected="True" />
+            <SelectField field="state_bottle_cost" selected="True" />
+            <SelectField field="state_bottle_retail" selected="True" />
+            <SelectField field="bottles_sold" selected="True" />
+            <SelectField field="sale_dollars" selected="True" />
+            <SelectField field="volume_sold_liters" selected="True" />
+            <SelectField field="volume_sold_gallons" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Iowa_Liquor_Sales_BigQuery_Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="201504e7-a1d6-48bc-8544-d28ddf741b90" />
+      <Telemetry>
+        <PreviousWorkflowId value="92784974-5237-4817-be16-628cbe795a7f" />
+        <OriginWorkflowId value="d4897e8d-83ab-4a53-8a04-f2247609ffe5" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

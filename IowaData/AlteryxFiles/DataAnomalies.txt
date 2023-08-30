@@ -1,0 +1,8 @@
+Updated # Iowa data anomalies
+
+1. Repetitive special characters in Address and Name - Replace special characters with spaces
+2. Difference in word case (small, big) - Change all to UPPERCASE while data-cleansing
+3. City names present in Store name - Remove using Replace String
+4. Vendor name contain Category (after /) - Remove string after ‘/’ by splitting into 2 columns
+5. City names contained ‘city’ at the end of the name causing scenarios where ‘City city’ was printed also, in Sales file City names are without ‘city’ so removed the string from the record
+6. Similarly, removed ‘county’ word from the County column to match the names with the sales file while cleaning

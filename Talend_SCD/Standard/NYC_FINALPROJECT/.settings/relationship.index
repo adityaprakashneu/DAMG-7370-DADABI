@@ -1,0 +1,100 @@
+[ {
+  "baseItem" : {
+    "id" : "_EKYqoNzaEe2IK-zx8H3sAA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_L-mAENzVEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_lypUUNzSEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_L-mAENzVEe2IK-zx8H3sAA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_KGbncMXSEe2wU6ywlaO96A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PWxqQMXTEe2wU6ywlaO96A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XRYaQMXcEe2wU6ywlaO96A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Y7_RAMXTEe2wU6ywlaO96A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PWxqQMXTEe2wU6ywlaO96A - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_XRYaQMXcEe2wU6ywlaO96A - productpricehistoryscd",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Y7_RAMXTEe2wU6ywlaO96A - ProductPriceHistorySCD",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ROn2oNzSEe2IK-zx8H3sAA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NAYUkNzSEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_lypUUNzSEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_NAYUkNzSEe2IK-zx8H3sAA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lj6K8N1lEe2VTYAwo-QJmg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_lypUUNzSEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_y89VUNzZEe2IK-zx8H3sAA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_8CbTwNzTEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_lypUUNzSEe2IK-zx8H3sAA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_8CbTwNzTEe2IK-zx8H3sAA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

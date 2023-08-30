@@ -1,0 +1,1304 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:new_localdb|||select chicago_fi_stg.* 
+from chicago_fi_stg</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:new_localdb
+Query=select chicago_fi_stg.* 
+fr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="License_Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="City" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Inspection_Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Date" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Risk_Level" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Risk_Description" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Violation_Code" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Violation" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Violation_Description" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Longitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="DateTime" />
+            <Field name="DI_WorkFlowFileName" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="DI_WorkFlowFileDirectory" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="186" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="License_Number" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="LICENSE NUMBER" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID" selected="True" rename="Right_RecordID" input="Right_" />
+                <SelectField field="Right_ADDRESS" selected="True" rename="Right_ADDRESS" input="Right_" />
+                <SelectField field="Right_CITY" selected="True" rename="Right_CITY" input="Right_" />
+                <SelectField field="Right_STATE" selected="True" rename="Right_STATE" input="Right_" />
+                <SelectField field="Right_LATITUDE" selected="True" rename="Right_LATITUDE" input="Right_" />
+                <SelectField field="Right_LONGITUDE" selected="True" rename="Right_LONGITUDE" input="Right_" />
+                <SelectField field="Right_LOCATION" selected="True" rename="Right_LOCATION" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="True" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkFlowFileName" selected="True" rename="Right_DI_WorkFlowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkFlowFileDirectory" selected="True" rename="Right_DI_WorkFlowFileDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:new_localdb|||select chicago_business_stg.* 
+from chicago_business_stg</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:new_localdb
+Query=select chicago_business_stg....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="ID" size="16" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="LICENSE ID" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="SITE NUMBER" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="CITY" size="30" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="STATE" size="2" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="WARD" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="PRECINCT" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="POLICE DISTRICT" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LICENSE CODE" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="SSA" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LATITUDE" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Double" />
+            <Field name="LONGITUDE" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Double" />
+            <Field name="LOCATION" size="40" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="Payment_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="License_Term_Start_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="Application_Created_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="License_Term_Expiration_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="Date_Issued" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="License_Status_Change_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="DI_CreateDate" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="DateTime" />
+            <Field name="DI_WorkFlowFileName" size="64" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="DI_WorkFlowFileDirectory" size="64" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="330" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Risk_Level" selected="True" />
+            <Field field="Risk_Description" selected="True" />
+            <Field field="Violation" selected="True" />
+            <Field field="Violation_Description" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="DI_WorkFlowFileName" selected="True" />
+            <Field field="DI_WorkFlowFileDirectory" selected="True" />
+            <Field field="ID" selected="True" />
+            <Field field="LEGAL NAME" selected="True" />
+            <Field field="DOING BUSINESS AS NAME" selected="True" />
+            <Field field="Right_ADDRESS" selected="True" />
+            <Field field="Right_CITY" selected="True" />
+            <Field field="Right_STATE" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="WARD PRECINCT" selected="True" />
+            <Field field="LICENSE DESCRIPTION" selected="True" />
+            <Field field="BUSINESS ACTIVITY ID" selected="True" />
+            <Field field="BUSINESS ACTIVITY" selected="True" />
+            <Field field="APPLICATION TYPE" selected="True" />
+            <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <Field field="CONDITIONAL APPROVAL" selected="True" />
+            <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <Field field="LICENSE STATUS" selected="True" />
+            <Field field="Right_LOCATION" selected="True" />
+            <Field field="Right_DI_WorkFlowFileName" selected="True" />
+            <Field field="Right_DI_WorkFlowFileDirectory" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="License_Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="City" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Inspection_Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Date" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Risk_Level" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Byte" />
+            <Field name="Risk_Description" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Violation_Code" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="Int32" />
+            <Field name="Violation" size="146" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Violation_Description" size="217" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Longitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="DateTime" />
+            <Field name="DI_WorkFlowFileName" size="21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="DI_WorkFlowFileDirectory" size="64" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chicago_fi;SERVER=(LocalDb)\MSSQLLocalDB;Trusted_Connection=yes|||select chicago_fi_stg.* &#xA;from chicago_fi_stg" type="String" />
+            <Field name="Right_RecordID" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="ID" size="16" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="LICENSE ID" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="SITE NUMBER" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LEGAL NAME" size="108" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="88" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="Right_ADDRESS" size="62" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="Right_CITY" size="18" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="Right_STATE" size="2" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="WARD" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="PRECINCT" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="POLICE DISTRICT" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LICENSE CODE" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="SSA" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Int16" />
+            <Field name="Right_LATITUDE" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Double" />
+            <Field name="Right_LONGITUDE" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Double" />
+            <Field name="Right_LOCATION" size="40" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="Payment_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="License_Term_Start_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="Application_Created_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="License_Term_Expiration_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="Date_Issued" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="License_Status_Change_Date" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="Date" />
+            <Field name="Right_DI_CreateDate" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="DateTime" />
+            <Field name="Right_DI_WorkFlowFileName" size="37" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+            <Field name="Right_DI_WorkFlowFileDirectory" size="64" source="File: aka:new_localdb|||select chicago_business_stg.* &#xA;from chicago_business_stg" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="FileGetFileName(&quot;C:\Users\18573\Downloads\DAMG7370 DA DA for BI\AlteryxModels\Chicago_FI_Stage3.yxmd&quot;)" field="DI_WorkflowFileName" size="21" type="String" />
+            <FormulaField expression="FileGetDir(&quot;C:\Users\18573\Downloads\DAMG7370 DA DA for BI\AlteryxModels\Chicago_FI_Stage3.yxmd&quot;)" field="DI_WorkflowDirectory" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = FileGetFileName("C:\Users\18...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DBA Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="DBA Name" />
+            <Field field="AKA Name" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Restaurant_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_33252_feb54df35cf5984b8cd6b6dceded5de5_\Engine_33252_82a1c523cd13064eb3d8a5f2824e1979~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Inspection Type" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionTypeSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_33252_feb54df35cf5984b8cd6b6dceded5de5_\Engine_33252_164306cb7d58fd44bacda35f35deaf91~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Results" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Results" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ResultsSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_33252_feb54df35cf5984b8cd6b6dceded5de5_\Engine_33252_9ca74b138d383846adddb9c1e6ad9c4a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Risk_Description" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Risk_Description" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RiskSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_33252_feb54df35cf5984b8cd6b6dceded5de5_\Engine_33252_3132316e8a43f04e8d152bed7972e934~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Facility Type" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>FacilitySK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_33252_feb54df35cf5984b8cd6b6dceded5de5_\Engine_33252_092c303873a51046949979dfd9f2e9bf~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Address" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="Zip" />
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+            <Field field="Location" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>GeoSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18573\AppData\Local\Temp\Engine_33252_feb54df35cf5984b8cd6b6dceded5de5_\Engine_33252_2e9a6dd91981d246961cc3d8cbd2221f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Address</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-16 04:59:21</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-03-16 04:59:21</StartDate>
+              <EndDate>2023-03-16 04:59:21</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Address])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Facility Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-16 05:01:19</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-03-16 05:01:19</StartDate>
+              <EndDate>2023-03-16 05:01:19</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Facility Type])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Risk_Description</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-16 05:01:40</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2023-03-16 05:01:40</StartDate>
+              <EndDate>2023-03-16 05:01:40</EndDate>
+              <Operand>
+              </Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Risk_Description])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Inspection Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-03-16 05:02:01</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-03-16 05:02:01</StartDate>
+              <EndDate>2023-03-16 05:02:01</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Inspection Type])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkFlowFileName" selected="True" />
+            <SelectField field="DI_WorkFlowFileDirectory" selected="True" />
+            <SelectField field="ID" selected="True" />
+            <SelectField field="LICENSE ID" selected="True" />
+            <SelectField field="ACCOUNT NUMBER" selected="True" />
+            <SelectField field="SITE NUMBER" selected="True" />
+            <SelectField field="LEGAL NAME" selected="True" />
+            <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+            <SelectField field="Right_ADDRESS" selected="True" rename="ADDRESS" />
+            <SelectField field="Right_CITY" selected="True" rename="CITY" />
+            <SelectField field="Right_STATE" selected="True" rename="STATE" />
+            <SelectField field="ZIP CODE" selected="True" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="WARD PRECINCT" selected="True" />
+            <SelectField field="POLICE DISTRICT" selected="True" />
+            <SelectField field="LICENSE CODE" selected="True" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" />
+            <SelectField field="APPLICATION TYPE" selected="True" />
+            <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <SelectField field="CONDITIONAL APPROVAL" selected="True" />
+            <SelectField field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <SelectField field="LICENSE STATUS" selected="True" />
+            <SelectField field="SSA" selected="True" />
+            <SelectField field="Right_LATITUDE" selected="True" rename="LATITUDE" />
+            <SelectField field="Right_LONGITUDE" selected="True" rename="LONGITUDE" />
+            <SelectField field="Right_LOCATION" selected="True" rename="LOCATION" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="918" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="ID" />
+            <Field field="LICENSE ID" />
+            <Field field="LICENSE NUMBER" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1038" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>LicenseSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Unique" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Unique" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Unique" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Unique" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Unique" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Unique" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ChicagoPart3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d56b7052-d1c5-4d03-94c2-c4e53bb5455a" />
+      <Telemetry>
+        <PreviousWorkflowId value="fc7d2770-e155-4879-9296-80c0168da7e4" />
+        <OriginWorkflowId value="fc7d2770-e155-4879-9296-80c0168da7e4" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
